@@ -1,12 +1,15 @@
 import React from 'react'
-// import Slider from '../Components/Slider'
+import Header from '../components/common/Header'
+import Footerr from '../components/common/Footer'
+
 
 const HomePage = () => {
   return (
-    <>
-    {/* <Slider/> */}
-    <h1 className='pt-4 text-info'>HomePage</h1>
-    </>
+    <div>
+      <Header />
+      <Footerr/>
+      
+    </div>
   )
 }
 
